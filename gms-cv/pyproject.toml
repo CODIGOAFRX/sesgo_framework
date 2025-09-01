@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gsmfair"
+version = "0.0.1"
+description = "Mini-framework local para detección y mitigación de sesgo en clasificación supervisada."
+authors = [{ name = "Pedro Jesús Gómez Pérez" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "scikit-learn>=1.4",
+  "scipy>=1.11",
+  "imbalanced-learn>=0.12"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["gsmfair*"]

@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/gsmfair/__init__.py
+src/gsmfair.egg-info/PKG-INFO
+src/gsmfair.egg-info/SOURCES.txt
+src/gsmfair.egg-info/dependency_links.txt
+src/gsmfair.egg-info/requires.txt
+src/gsmfair.egg-info/top_level.txt
+src/gsmfair/metrics/__init__.py
+src/gsmfair/metrics/demographic_parity.py
+src/gsmfair/metrics/equal_opportunity.py
+src/gsmfair/mitigation/__init__.py
+src/gsmfair/mitigation/helpers.py
+src/gsmfair/mitigation/reweighting.py

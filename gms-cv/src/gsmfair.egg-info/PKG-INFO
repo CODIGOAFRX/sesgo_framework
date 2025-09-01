@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: gsmfair
+Version: 0.0.1
+Summary: Mini-framework local para detección y mitigación de sesgo en clasificación supervisada.
+Author: Pedro Jesús Gómez Pérez
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.1
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: scipy>=1.11
+Requires-Dist: imbalanced-learn>=0.12

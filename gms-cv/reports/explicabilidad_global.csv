@@ -1,0 +1,51 @@
+token,peso,sentido
+doctorate profesión,2.192850461794271,favorece_preseleccion
+doctorate,2.192850461794271,favorece_preseleccion
+educación doctorate,2.192850461794271,favorece_preseleccion
+spouse relación,2.0938731792264194,favorece_preseleccion
+civ,1.9692718884684055,favorece_preseleccion
+married civ,1.9692718884684055,favorece_preseleccion
+civ spouse,1.9692718884684055,favorece_preseleccion
+spouse,1.8851273889385882,favorece_preseleccion
+civil married,1.8851273889385882,favorece_preseleccion
+educación prof,1.6405767571613663,favorece_preseleccion
+school,1.6405767571613663,favorece_preseleccion
+school profesión,1.6405767571613663,favorece_preseleccion
+prof school,1.6405767571613663,favorece_preseleccion
+educación masters,1.6070949595932178,favorece_preseleccion
+masters profesión,1.6070949595932178,favorece_preseleccion
+masters,1.6070949595932178,favorece_preseleccion
+bachelors,1.5851558850681822,favorece_preseleccion
+bachelors profesión,1.5851558850681822,favorece_preseleccion
+educación bachelors,1.5851558850681822,favorece_preseleccion
+prof,1.4038765163982132,favorece_preseleccion
+relación wife,1.303022154364171,favorece_preseleccion
+wife,1.303022154364171,favorece_preseleccion
+wife horas,1.303022154364171,favorece_preseleccion
+50,1.2556321078938155,favorece_preseleccion
+emp inc,1.2485225548611187,favorece_preseleccion
+semana país,-2.4071862714668693,favorece_descarte
+23,-2.1164490153859044,favorece_descarte
+20,-2.0710902927703065,favorece_descarte
+edad 23,-1.9680159055834778,favorece_descarte
+23 educación,-1.9680159055834778,favorece_descarte
+24,-1.8011968428361118,favorece_descarte
+22 educación,-1.8003837682783275,favorece_descarte
+edad 22,-1.8003837682783275,favorece_descarte
+22,-1.797115881193419,favorece_descarte
+edad 20,-1.7168848117237336,favorece_descarte
+20 educación,-1.7168848117237336,favorece_descarte
+24 educación,-1.594860811049942,favorece_descarte
+edad 24,-1.594860811049942,favorece_descarte
+21,-1.5851924802125326,favorece_descarte
+edad 21,-1.5679748316850537,favorece_descarte
+21 educación,-1.5679748316850537,favorece_descarte
+never,-1.5326823398336797,favorece_descarte
+civil never,-1.5213214137988347,favorece_descarte
+never married,-1.5213214137988347,favorece_descarte
+married relación,-1.5213214137988347,favorece_descarte
+profesión estado,-1.5062407501356634,favorece_descarte
+25,-1.494276235613782,favorece_descarte
+18,-1.4289093124513976,favorece_descarte
+educación 9th,-1.3959013794715625,favorece_descarte
+9th,-1.3959013794715625,favorece_descarte

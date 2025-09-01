@@ -1,0 +1,14 @@
+TEST AUC-ROC: 0.891
+TEST AUC-PR : 0.715
+              precision    recall  f1-score   support
+
+           0      0.939     0.784     0.854      7431
+           1      0.549     0.838     0.664      2338
+
+    accuracy                          0.797      9769
+   macro avg      0.744     0.811     0.759      9769
+weighted avg      0.846     0.797     0.809      9769
+
+Matriz de confusión:
+[[5824 1607]
+ [ 379 1959]]

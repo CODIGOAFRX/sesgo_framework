@@ -1,0 +1,86 @@
+=== Baseline: métricas globales ===
+n: 48842
+tp: 8948
+fp: 5783
+tn: 31372
+fn: 2739
+precision: 0.607427
+recall: 0.765637
+f1: 0.677417
+fn_rate: 0.234363
+fp_rate: 0.155645
+seleccion: 0.301605
+
+=== Fair (postprocesado): métricas globales ===
+n: 48842
+tp: 9075
+fp: 3954
+tn: 33201
+fn: 2612
+precision: 0.696523
+recall: 0.776504
+f1: 0.734342
+fn_rate: 0.223496
+fp_rate: 0.106419
+seleccion: 0.266758
+
+=== Baseline: métricas por género ===
+[H]
+n: 32650
+tp: 7809
+fp: 4958
+tn: 17774
+fn: 2109
+precision: 0.611655
+recall: 0.787356
+f1: 0.688473
+fn_rate: 0.212644
+fp_rate: 0.218107
+seleccion: 0.391026
+[M]
+n: 16192
+tp: 1139
+fp: 825
+tn: 13598
+fn: 630
+precision: 0.579939
+recall: 0.643867
+f1: 0.610233
+fn_rate: 0.356133
+fp_rate: 0.057200
+seleccion: 0.121294
+
+=== Fair: métricas por género ===
+[H]
+n: 32650
+tp: 7809
+fp: 3129
+tn: 19603
+fn: 2109
+precision: 0.713933
+recall: 0.787356
+f1: 0.748849
+fn_rate: 0.212644
+fp_rate: 0.137647
+seleccion: 0.335008
+[M]
+n: 16192
+tp: 1266
+fp: 825
+tn: 13598
+fn: 503
+precision: 0.605452
+recall: 0.715659
+f1: 0.655959
+fn_rate: 0.284341
+fp_rate: 0.057200
+seleccion: 0.129138
+
+=== Diferenciales de equidad (gaps) ===
+FPR gap BASELINE: 0.160906 -> FAIR: 0.080447
+FNR gap BASELINE: 0.143490 -> FAIR: 0.071698
+
+=== Deltas y Regla del 80% ===
+Δ recall (M - H) BASELINE: -0.143490 -> FAIR: -0.071698
+Δ precision (M - H) BASELINE: -0.031716 -> FAIR: -0.108481
+Regla del 80% BASELINE (M/H selección): 0.310195 -> FAIR: 0.385477
